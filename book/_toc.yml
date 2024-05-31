@@ -1,0 +1,4 @@
+format: jb-book
+root: index
+chapters:
+  - file: content/notebooks/Rabies_project_updated_may_2024
