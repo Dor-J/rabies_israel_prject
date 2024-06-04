@@ -12,3 +12,9 @@ html:
       - https://code.jquery.com/jquery-3.5.1.slim.min.js
       - https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js
       - https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js
+
+sphinx:
+  config:
+    html_js_files:
+      - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
+    suppress_warnings: ["mystnb.unknown_mime_type"]
